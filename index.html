@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>MyWebsite</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="js/debugging.js"></script>
+<!--<?php include "includes/connect.php"; ?>-->
+	
+</head>
+
+<body>
+	
+	<div class="content">
+	
+		<header>
+			<nav id="main-nav">
+				<a href="index.html" class="active">Home</a>
+			</nav>
+			<div class="logo"><img src="" alt="" id="brand"/></div>
+		</header>
+		
+		<main id="main-content">
+			<h1>Opdracht 1</h1>
+			<p>vul hieronder een leeftijd in en klik op GO:</p>
+			<div class="input-holder">
+				<input class="input" type="number" id="myAge"><button onclick="getAge()">GO</button>
+			</div>
+
+			<h1>Opdracht 2</h1>
+			<p>Klik hieronder op bekijk loop op je de code van je loop in de debugger te bekijken:</p>
+			<div class="input-holder">
+				<button onclick="myFirstLoop()">KLIK HIER</button>
+			</div>
+
+			<h1>Opdracht 3</h1>
+			<p>Laat de nummers 1 t/m 100 in je website zien <br> gebruik hiervoor een for loop. Zet de for loop in de functie myNumbers() in debugging.js.</p>
+			<div class="input-holder">
+				<button onclick="myNumbers()">TOON NUMMERS</button>
+			</div>
+			<div id="numbersText">
+				<!-- zet de uitkomst van loop hier neer!-->
+			</div>
+			
+			<h1>Opdracht 4</h1>
+			<p>Vul een getal in in het veld hieronder en maak met dat getal een tafel (1*1=1, 2*1=2 etc) <br> gebruik hiervoor een for loop. Zet de for loop in de functie myTafel() in debugging.js.<br>Laat de tafel in je website zien!</p>
+			<div class="input-holder">
+				<input class="input" type="number" id="myNumber"><button onclick="myTafel()">GO</button>
+			</div>
+			<div id="tafelText">
+				<!-- zet de uitkomst van de tafel hier neer!-->
+			</div>
+
+		</main>
+		
+	</div>
+	
+</body>
+</html>
+
