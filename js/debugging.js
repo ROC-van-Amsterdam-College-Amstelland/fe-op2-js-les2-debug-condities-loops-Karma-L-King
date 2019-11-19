@@ -22,8 +22,8 @@ function getAge() {
 
 function loadChildTheme() {
     document.getElementById("brand").src = "images/logo-01.png";
-    document.getElementsByTagName("header")[x].style.backgroundColor = "#00AEEF";
-    document.getElementsByTagName("body")[x].style.backgroundColor = "yellowgreen";
+    document.getElementsByTagName("header")[0].style.backgroundColor = "#00AEEF";
+    document.getElementsByTagName("body")[0].style.backgroundColor = "yellowgreen";
     //kies code hieronder
 }
 
