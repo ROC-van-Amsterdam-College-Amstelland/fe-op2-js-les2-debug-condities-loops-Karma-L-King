@@ -23,14 +23,21 @@ function getAge() {
 function loadChildTheme() {
     document.getElementById("brand").src = "images/logo-01.png";
     document.getElementsByTagName("header")[0].style.backgroundColor = "#00AEEF";
-    document.getElementsByTagName("body")[0].style.backgroundColor = "yellowgreen";
+    document.getElementsByTagName("body")[0].style.backgroundColor = "pink";
+    document.getElementById("main-nav").style.backgroundColor = "#00AEEF";
+    document.getElementsByClassName("active")[0].style.backgroundColor = "green";
+    document.getElementById("main-content").style.backgroundColor = "#00AEEF";
+
     //kies code hieronder
 }
 
 function loadTheme() {
     document.getElementById("brand").src = "images/logo-02.png";
-    document.getElementsByTagName("header")[x].style.backgroundColor = "#00AEEF";
-    document.getElementsByTagName("body")[x].style.backgroundColor = "yellowgreen";
+    document.getElementsByTagName("header")[0].style.backgroundColor = "grey";
+    document.getElementsByTagName("body")[0].style.backgroundColor = "grey";
+    document.getElementById("main-nav").style.backgroundColor = "grey";
+    document.getElementsByClassName("active")[0].style.backgroundColor = "grey";
+    document.getElementById("main-content").style.backgroundColor = "#00AEEF";
     //kies code hieronder
 }
 
